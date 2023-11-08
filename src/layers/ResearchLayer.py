@@ -1,4 +1,4 @@
-from src.layers import Layer
+from . import Layer
 
 class ResearchLayer(Layer):
     def __call__(self):
